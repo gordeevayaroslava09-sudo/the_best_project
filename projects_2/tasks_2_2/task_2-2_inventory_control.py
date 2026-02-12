@@ -1,0 +1,5 @@
+the_reagent_name = input('Введите название нового реактива: ')
+the_reagent_qualitity = input('Введите количество: ')
+f=open('the_reagent.txt', 'w', encoding='utf-8')
+print(f'Реактив {the_reagent_name} поступил на склад в количестве {the_reagent_qualitity} шт', file=f)
+f.close()
